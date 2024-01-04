@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #212530;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.game-poster {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.download-button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #ff0055;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.download-button:hover {
+    background-color: #e60049;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.poster-download {
+    margin: 20px 0;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+#quick-download {
+    background-color: #e60049;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Smaller size for the bottom button */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+    display: block;
+    width: 200px; /* Fixed width for the bottom button */
+    margin: 30px auto;
+}
+
+#quick-download:hover {
+    background-color: #e60049;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    #slider {
+        flex-direction: column;
+    }
+
+    .slide {
+        margin: 10px 0;
+    }
+}
+
+/* Additional responsive adjustments as needed */
